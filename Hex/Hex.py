@@ -11,5 +11,7 @@ hex_string = "63727970746f7b596f755f77696c6c5f62655f776f726b696e675f776974685f68
 
 bytes_string = bytes.fromhex(hex_string)
 
-print(bytes_string.decode("utf-8"))
+flag = bytes_string.decode("utf-8")
+
+print(flag)
 
